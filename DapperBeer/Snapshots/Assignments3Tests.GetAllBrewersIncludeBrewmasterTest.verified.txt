@@ -13,5 +13,14 @@
     BrewerId: 680,
     Name: 3 FONTEINEN,
     Country: BEL
+  },
+  {
+    BrewerId: 681,
+    Name: 3 HORNEN,
+    Country: NED,
+    Brewmaster: {
+      BrewmasterId: 1,
+      Name: Nigel Zboncak
+    }
   }
 ]

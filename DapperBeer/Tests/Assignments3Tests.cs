@@ -28,7 +28,7 @@ public class Assignments3Tests : TestHelper
     {
         List<Brewer> allBrewersIncludeBrewmaster = Assignments3.GetAllBrewersIncludeBrewmaster();
         allBrewersIncludeBrewmaster.Should().HaveCount(677);
-        await Verify(allBrewersIncludeBrewmaster.Take(3));
+        await Verify(allBrewersIncludeBrewmaster.Take(4));
     }
     
     // 3.4 Test
